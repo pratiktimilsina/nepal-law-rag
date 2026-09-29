@@ -1,0 +1,122 @@
+﻿id,lang,type,gold,cited,question,answer,correct (1/0.5/0),notes
+q001,ne,fact,[7],[7],नेपालको सरकारी कामकाजको भाषा कुन हो?,"नेपालको सरकारी कामकाजको भाषा देवनागरी लिपिमा लेखिने नेपाली भाषा हो। तर, प्रदेशले आफ्नो प्रदेशभित्र बहुसंख्यक जनताले बोल्ने अन्य भाषालाई पनि सरकारी कामकाजको भाषा बनाउन सक्नेछ। भाषा सम्बन्धी अन्य कुराहरू भाषा आयोगको सिफारिसमा सरकारले निर्णय गर्छ। (धारा ७)
+
+धारा ७",1,
+q002,en,fact,[7],[7],What is the official language of Nepal?,The official language of Nepal is the Nepali language in the Devnagari script. A Province may also determine additional official languages based on the majority language spoken within its borders. Other language-related matters are decided by the Government of Nepal based on recommendations from the Language Commission. (Article 7),1,
+q003,ne,paraphrase,[129],"[2, 284]",प्रधान न्यायाधीशलाई कसले नियुक्त गर्छ?,"राष्ट्रपतिले संवैधानिक परिषदको सिफारिसमा प्रधान न्यायाधीश नियुक्त गर्छन्। (Article २) प्रधान न्यायाधीशको पद रिक्त भएको अवस्थामा, कानून तथा न्यायमन्त्री संवैधानिक परिषदमा सदस्यको रूपमा रहनेछन्। (धारा २८४)
+
+Citations:
+* (धारा २)
+* (धारा २८४)",1,
+q004,en,paraphrase,[129],[129],Who appoints the Chief Justice of Nepal?,"The President of Nepal appoints the Chief Justice. This appointment is made on the recommendation of the Constitutional Council (Article 129).
+
+Article 129",1,
+q005,ne,lookup,[29],[29],धारा २९ मा के व्यवस्था छ?,"धारा २९ मा प्रत्येक व्यक्तिलाई शोषण विरुद्धको हक हुनेछ भनिएको छ। यसमा धर्म, प्रथा, परम्परा वा अन्य आधारमा शोषण गर्न पाइने छैन, कसैलाई पनि बेचबिखन गर्न, दास बनाउन पाइने छैन, र निजको इच्छा विरुद्ध काममा लगाउन पाइने छैन। साथै, यस्तो कार्य कानून बमोजिम दण्डनीय हुनेछ र पीडितले क्षतिपूर्ति पाउने हक हुनेछ। (धारा २९)",1,
+q006,en,lookup,[29],[29],What does Article 29 say?,"Article 29 guarantees the right against exploitation for every person. It prohibits exploitation based on various grounds, forbids trafficking, slavery, and servitude, and prevents forcing someone to work against their will, with exceptions for compulsory public service. Violations are punishable by law, and victims are entitled to compensation. (Article 29)",1,
+q007,ne,paraphrase,[29],[29],कसैलाई उसको इच्छा विपरीत जबरजस्ती काममा लगाउन पाइन्छ?,"कसैलाई इच्छा विरुद्ध जबरजस्ती काममा लगाउन पाइदैन, तर सार्वजनिक उद्देश्यका लागि राज्यले कानून बनाएर नागरिकलाई अनिवार्य सेवामा लगाउन सक्ने गरी रोक लगाउन पाइने छैन। यसको अर्थ राज्यले कानून बनाएर नागरिकलाई केही काममा अनिवार्य रूपमा लगाउन सक्छ। (धारा २९)
+
+Citations: (धारा २९)",1,
+q008,en,paraphrase,[29],[29],Can a person be forced to work against their will?,"No one shall be forced to work against their will; however, the state can make laws requiring citizens to perform compulsory service for public purposes. This is not considered a restriction on the right against exploitation. (Article 29)",1,
+q009,ne,negative,[],[],नेपालमा न्यूनतम ज्याला कति छ?,"मैले यो संविधानमा फेला परेन।
+I could not find this in the Constitution.",1,
+q010,en,negative,[],[],What is the minimum wage in Nepal?,I could not find this in the Constitution.,1,
+q011,ne,paraphrase,[20],[20],प्रहरीले पक्राउ गरेपछि कति घण्टाभित्र अदालतमा पेश गर्नुपर्छ?,"प्रहरीले पक्राउ गरेपछि चौबीस घण्टाभित्र अदालतमा पेश गर्नुपर्छ, बाटोको म्याद बाहेक । यसो नगरेमा थुनामा राख्न पाइँदैन, तर यो नियम निवारक नजरबन्दमा राखिएका व्यक्ति र शत्रु देशको नागरिकको हकमा लागू हुँदैन । (धारा २०(३))",1,
+q012,en,paraphrase,[20],[20],How soon after arrest must police bring a person before a court?,"Police must bring a person before an adjudicating authority within twenty-four hours of arrest, excluding the time necessary for the journey from the place of arrest to the authority. This provision does not apply to those held in preventive detention or citizens of an enemy state. (Article 20(3))",1,
+q013,ne,fact,[16],[16],नेपालमा मृत्युदण्डको सजाय दिन मिल्छ?,"नेपालको संविधान अनुसार, कसैलाई पनि मृत्युदण्डको सजाय दिने गरी कानून बनाउन पाइँदैन। यो अधिकार सम्मानपूर्वक बाँच्न पाउने हकको অংশ हो। (धारा १६)
+
+Citations: (धारा १६)",0.5,mixed Bengali word (অংশ) in Nepali answer; facts correct
+q014,en,fact,[16],[16],Does the Constitution allow the death penalty?,The Constitution does not allow for the death penalty. No law shall be made providing for the death penalty to anyone. (Article 16(2)),1,
+q015,ne,paraphrase,[19],[19],सरकारले पत्रिकाको समाचार छाप्नुअघि रोक्न सक्छ?,"सरकारले पत्रिकाको समाचार छाप्नुअघि रोक्न पाउँदैन। संविधानबमोजिम, कुनै पनि माध्यमबाट समाचार, सम्पादकीय, लेख, रचना वा अन्य सामग्रीको प्रकाशन तथा प्रसारण गर्न पूर्व प्रतिबन्ध लगाउन पाइँदैन (धारा १९(१)). तथापि, नेपालको सार्वभौमसत्ता वा सार्वजनिक नैतिकतामा खलल पर्ने अवस्थामा मनासिब प्रतिबन्ध लगाउन सकिने ऐन बनाउन रोक लगाइएको छैन (धारा १९(१)).
+
+धारा १९(१), धारा १९(३)",1,
+q016,en,paraphrase,[19],[19],Can the government censor news before it is published?,"No, the government cannot censor news before it is published. Article 19 explicitly states that no publication or broadcasting of any news item shall be censored. However, reasonable restrictions can be imposed on acts that undermine sovereignty, territorial integrity, or public decency, among other things (Article 19).
+
+Citations: Article 19",1,
+q017,ne,fact,[27],[27],सूचनाको हक सम्बन्धी संविधानमा के व्यवस्था छ?,"नागरिकलाई आफ्नो वा सार्वजनिक सरोकारको कुनै पनि विषयको सूचना माग्ने र पाउने अधिकार छ, तर कानूनबमोजिम गोप्य राख्नुपर्ने सूचनाको जानकारी दिनु पर्दैन। यसको अर्थ के हो भने, राज्यले केही सूचनाहरू सार्वजनिक नगर्न सक्ने अधिकार राख्छ। (धारा २७)
+
+(धारा २७)",1,
+q018,en,fact,[27],[27],What does the Constitution say about the right to information?,"Every citizen has the right to demand and receive information on matters of public or personal interest, but no one can be forced to provide information that must be kept confidential according to the law. This right is balanced by the possibility of legal restrictions to protect various interests. (Article 27)",1,
+q019,ne,paraphrase,[31],"[31, 40]",सरकारी विद्यालयमा कुन तहसम्म निःशुल्क पढ्न पाइन्छ?,"नागरिकहरूले राज्यबाट आधारभूत तहसम्म अनिवार्य र निःशुल्क शिक्षा तथा माध्यमिक तहसम्मको शिक्षा निःशुल्क पाउने हक छ। साथै, दलित विद्यार्थीहरूलाई प्राथमिकदेखि उच्च शिक्षासम्म कानून बमोजिम नि:शुल्क शिक्षाको व्यवस्था छ (धारा ३१, धारा ४०)।
+
+(धारा ३१), (धारा ४०)",1,
+q020,en,paraphrase,[31],"[31, 40]",Up to what level is education free in public schools?,"Every citizen has the right to get compulsory and free education up to the basic level and free education up to the secondary level from the State. Additionally, Dalit students are entitled to free education with scholarships from primary to higher education (Article 31(2) and Article 40(2)).
+
+Citations: (Article 31(2)), (Article 40(2))",1,
+q021,ne,paraphrase,[35],[35],सरकारी अस्पतालमा आधारभूत उपचार निःशुल्क पाइन्छ?,"प्रत्येक नागरिकलाई राज्यबाट आधारभूत स्वास्थ्य सेवा निःशुल्क प्राप्त गर्ने हक हुन्छ, र कसैलाई पनि आकस्मिक स्वास्थ्य सेवाबाट वञ्चित गरिने छैन। यसले सरकारी अस्पतालमा आधारभूत उपचार निःशुल्क पाउने अधिकारलाई सुनिश्चित गर्दछ। (धारा ३५)",1,
+q022,en,paraphrase,[35],[35],Are basic health services provided free of cost?,"Every citizen has the right to free basic health services from the State, and no one shall be deprived of emergency health services. This right also includes the right to information regarding medical treatment and equal access to health services. (Article 35)",1,
+q023,ne,paraphrase,[25],[25],सरकारले कसैको जग्गा लिँदा मुआब्जा दिनुपर्छ?,"सार्वजनिक हितका लागि राज्यले कुनै व्यक्तिको सम्पत्ति अधिग्रहण गर्दा क्षतिपूर्ति दिनुपर्छ। क्षतिपूर्तिको आधार र कार्यप्रणाली ऐन बमोजिम हुनेछ। (धारा २५)
+
+(Article 25)",1,
+q024,en,paraphrase,[25],[25],Must the state pay compensation when it acquires someone's land?,"Yes, if the State requisitions property for public interest, it must provide compensation and follow procedures as provided for in an Act. (Article 25(3))
+
+भाग ३ – मौलिक हक र कर्तव्य | धारा २५: सम्पत्तिको हक
+(३) उपधारा (२) बमोजिम सार्वजनिक हितका लागि राज्यले कुनै पनि व्यक्तिको सम्पत्ति अधिग्रहण गर्दा क्षतिपूर्तिको आधार र कार्यप्रणाली ऐन बमोजिम हुनेछ ।",1,
+q025,ne,fact,[63],[63],राष्ट्रपतिको पदावधि कति वर्षको हुन्छ?,"राष्ट्रपति निर्वाचित भएको मितिले पाँच वर्षसम्मको पदावधि हुन्छ। यदि नयाँ राष्ट्रपति नियुक्त नभएसम्म, पुरानो राष्ट्रपतिले आफ्नो पदावधि समाप्त भएपछि पनि कार्यसम्पादन गर्न जारी राख्छन्। यो व्यवस्था उपधारा (१) र (२) मा उल्लेख गरिएको छ।
+
+(धारा ६३: राष्ट्रपतिको पदावधि)",0.5,wrong detail: says outgoing President serves until a new one is 'appointed' (नियुक्त); Art 63(2) says until another elected President assumes office
+q026,en,fact,[63],[63],What is the term of office of the President?,"The term of office of the President is five years from the date on which he or she is elected. If a President's term expires, they will continue to perform their duties until a newly elected President takes office. (Article 63)",1,
+q027,ne,fact,[64],[64],राष्ट्रपति हुन कम्तीमा कति वर्ष उमेर पुगेको हुनुपर्छ?,"राष्ट्रपति हुनका लागि योग्य व्यक्तिमा कम्तीमा पैतिस वर्ष उमेर पूरा भएको हुनुपर्छ (Article ६४). यो योग्यता संघीय संसदको सदस्य हुन योग्य भएको व्यक्तिमा पनि आवश्यक छ (Article ६४). अर्कोथाले, राष्ट्रपतिको उमेरको सीमा तोक्ने अन्य कुनै कानून छैन (Article ६४).
+
+(धारा ६४)",0,"wrong number: says 35 years, Art 64(1)(b) says 45; also invents claim that no other law sets an age limit"
+q028,en,fact,[64],[64],What is the minimum age to become President?,A person must have completed at least forty-five years of age to be eligible to become the President. This requirement is in addition to being eligible to become a member of the Federal Parliament and not being disqualified by any law. (Article 64),1,
+q029,ne,paraphrase,[76],[76],प्रधानमन्त्री कसरी नियुक्त हुन्छ?,"यदि प्रतिनिधि सभामा बहुमत प्राप्त संसदीय दलको नेता हुनुहुन्छ भने, राष्ट्रपतिले तपाईंलाई प्रधानमन्त्री नियुक्त गर्नुहुन्छ र तपाईंको अध्यक्षतामा मन्त्रिपरिषदको गठन हुन्छ। यदि कुनै दलको स्पष्ट बहुमत नरहेको अवस्थामा, राष्ट्रपतिले दुई वा दुई भन्दा बढी दलहरूको समर्थनमा बहुमत प्राप्त गर्न सक्ने प्रतिनिधि सभाको सदस्यलाई प्रधानमन्त्री नियुक्त गर्न सक्नुहुन्छ। (धारा ७६: मन्त्रिपरिषदको गठन)
+
+Citations:
+* (धारा ७६: मन्त्रिपरिषदको गठन)
+* (धारा ७६: मन्त्रिपरिषदको गठन)",1,
+q030,en,paraphrase,[76],[76],How is the Prime Minister appointed?,"The President appoints the leader of the parliamentary party that commands a majority in the House of Representatives as the Prime Minister. If no party has a majority, the President appoints a member who can command a majority with support from two or more parties. (Article 76)",1,
+q031,ne,fact,[84],[84],प्रतिनिधि सभामा जम्मा कति सदस्य हुन्छन्?,"प्रतिनिधि सभामा जम्मा दुई सय पचहत्तर सदस्य हुन्छन्, जसमध्ये एक सय पचहत्तर सदस्य पहिलो हुने निर्वाचित हुने निर्वाचन प्रणालीबाट र एक सय दश सदस्य समानुपातिक निर्वाचन प्रणालीबाट निर्वाचित हुन्छन्। राजनीतिक दलले समानुपातिक निर्वाचन प्रणालीमा उम्मेदवारी दिंदा विभिन्न समुदायको प्रतिनिधित्वलाई ध्यान दिनु पर्छ। (धारा ८४)
+(Article 84)",0.5,"total 275 correct but wrong FPTP number: says 175, Art 84(1)(a) says 165"
+q032,en,fact,[84],[84],How many members are there in the House of Representatives?,"The House of Representatives consists of a total of two hundred and seventy-five members. This number is comprised of one hundred and sixty-five members elected through the first past the post system and one hundred and ten members elected through the proportional electoral system (Article 84). Furthermore, at least one third of the total number of members elected from each political party must be women (Article 84).
+
+Citations: (Article 84), (Article 84)",1,
+q033,ne,fact,[86],[86],राष्ट्रिय सभामा कति सदस्य रहन्छन्?,राष्ट्रिय सभामा करिब ५९ जना सदस्य रहन्छन्। यी सदस्यहरूमा निर्वाचित सदस्यहरू र राष्ट्रपतिद्वारा मनोनित सदस्यहरू समावेश छन्। (धारा ८६),0.5,hedged exact number (करिब ५९); Art 86(2) says exactly 59
+q034,en,fact,[86],[86],How many members does the National Assembly have?,"The National Assembly consists of fifty-nine members. Fifty-six are elected, and three are nominated by the President. (Article 86)",1,
+q035,ne,paraphrase,[87],[87],सांसद बन्न न्यूनतम उमेर कति चाहिन्छ?,संघीय संसदको सदस्य बन्न प्रतिनिधि सभाका लागि न्यूनतम उमेर २५ वर्ष र राष्ट्रिय सभाका लागि ३५ वर्ष चाहिन्छ। यो योग्यता धारा ८७ मा उल्लेख छ। (धारा ८७),1,
+q036,en,paraphrase,[87],[87],What is the minimum age to become a member of parliament?,"The minimum age to become a member of the Federal Parliament depends on the specific house. For the House of Representatives, the minimum age is twenty-five years, while for the National Assembly, it is thirty-five years. (Article 87)",1,
+q037,ne,paraphrase,[140],[140],उच्च अदालतको मुख्य न्यायाधीश कसरी नियुक्त हुन्छ?,"उच्च अदालतका मुख्य न्यायाधीशको नियुक्ति प्रधान न्यायाधीशले न्याय परिषदको सिफारिसमा गर्छन्। कानूनमा स्नातक उपाधि प्राप्त गरी जिल्ला न्यायाधीशको पदमा कम्तीमा पाँच वर्ष काम गरेको व्यक्ति उच्च अदालतको मुख्य न्यायाधीशको पदमा नियुक्तिका लागि योग्य मानिनेछ (धारा १४०)।
+
+धारा १४०",1,
+q038,en,paraphrase,[140],[140],How is the Chief Judge of a High Court appointed?,"The Chief Justice appoints the Chief Judge of a High Court on the recommendation of the Judicial Council (Article 140). Any citizen of Nepal meeting specific qualifications, such as being a District Court Judge for at least five years or a senior advocate for at least ten years, is eligible for this appointment (Article 140).
+
+Article 140",1,
+q039,ne,fact,[56],[56],नेपालमा कति वटा प्रदेश छन्?,नेपालमा हाल कायम रहेका अनुसूची-४ मा उल्लेख भए बमोजिमका जिल्िलाहरू रहेका प्रदेशहरू छन्। संविधान प्रारम्भ हुँदाका बखत नेपालमा प्रदेशहरू रहेका थिए। (धारा ५६),0.5,garbled; wrongly says provinces existed at commencement (Art 56(3): districts in Schedule-4 existed)
+q040,en,fact,[56],[56],How many provinces does Nepal have?,"Nepal has Provinces consisting of the Districts referred to in Schedule-4, which existed at the time of the Constitution's commencement. The exact number of Provinces is determined by Schedule-4. (Article 56)",1,
+q041,ne,paraphrase,"[57, 214, 221]","[214, 221]",गाउँपालिका र नगरपालिकाको अधिकार कहाँ तोकिएको छ?,"गाउँपालिका र नगरपालिकाको अधिकार अनुसूची-८ र अनुसूची-९ बमोजिमको सूचीमा तोकिएको छ। स्थानीय तहको कार्यकारिणी अधिकार गाउँ कार्यपालिका वा नगर कार्यपालिकामा निहित रहनेछ र व्यवस्थापिकीय अधिकार गाउँ सभा र नगर सभामा रहनेछ। यी अधिकारहरू अनुसूची-८ र अनुसूची-९ मा उल्लेखित सूची अनुसार हुन्छन् (धारा २१४, धारा २२१)।",1,
+q042,en,paraphrase,"[57, 214, 221]","[57, 214, 221]",Where are the powers of local governments defined?,"The powers of local governments are defined in Schedules 8 and 9, and are exercised in accordance with the Constitution and laws made by the Rural Municipal Assembly or Municipal Assembly. These powers are also vested on the matters enumerated in Schedule-8 and Schedule-9 (Article 57).
+
+Article 57; Article 221; Article 214",1,
+q043,ne,paraphrase,"[238, 239]","[238, 239]",अख्तियार दुरुपयोग अनुसन्धान आयोग कसरी गठन हुन्छ र यसले के काम गर्छ?,"अख्तियार दुरुपयोग अनुसन्धान आयोगमा प्रमुख आयुक्त र चार जना आयुक्तहरू हुन्छन्, र राष्ट्रपति संवैधानिक परिषदको सिफारिसमा यी आयुक्तहरूको नियुक्ति गर्छन् (धारा २३८(१), (२)). आयोगले भ्रष्टाचारको अनुसन्धान गर्न सक्छ, र अनुसन्धानबाट कुनै सार्वजनिक पदमा रहेका व्यक्तिको भ्रष्टाचार देखिएमा मुद्दा दायर गर्न सक्छ (धारा २३९(१), (३)). (धारा २३८(१), धारा २३९(१), (३))",1,
+q044,en,paraphrase,"[238, 239]","[239, 301]",How is the CIAA formed and what does it do?,"The Commission for the Investigation of Abuse of Authority (CIAA) is deemed to have been formed in accordance with the Constitution and can conduct investigations of abuse of authority committed through corruption by any person holding public office, in accordance with law. It may also conduct investigations after certain individuals have been removed from office, according to federal law. (Article 239; Article 301)",0.5,"functions correct, formation wrong: used Art 301 transitional clause instead of Art 238 (Chief + 4 Commissioners, appointed by President on Constitutional Council recommendation)"
+q045,ne,paraphrase,[273],[273],देशमा ठूलो प्राकृतिक प्रकोप आएमा राष्ट्रपतिले के गर्न सक्छ?,"यदि देशमा ठूलो प्राकृतिक प्रकोप आउँछ भने, राष्ट्रपतिले नेपालभर वा नेपालको कुनै विशेष क्षेत्रमा सङ्कटकालीन अवस्था घोषणा गर्न सक्छिन्। साथै, प्रदेश सरकारले नेपाल सरकारलाई प्रदेश वा प्रदेशको कुनै भागमा सङ्कटकालीन अवस्था घोषणा गर्नका लागि अनुरोध गर्न सक्छ। (भाग ३० – सङ्कटकालीन अधिकार | धारा २७३)",1,
+q046,en,paraphrase,[273],[273],What can the President do if a major natural disaster strikes the country?,"The President may, by Proclamation, declare or order a state of emergency in respect of the whole of Nepal or of any particular part thereof if a grave emergency arises due to a natural disaster. Alternatively, if a grave emergency arises in a Province due to a natural disaster or epidemic, the concerned Provincial Government may request the Government of Nepal to declare a state of emergency. (Article 273)
+
+Citations: (Article 273)",1,
+q047,ne,lookup,[274],[274],धारा २७४ के बारेमा हो?,"धारा २७४ नेपालको संविधान संशोधन सम्बन्धी व्यवस्था हो। यसले संविधानको संशोधन प्रक्रियाको बारेमा बताउँछ, जसमा कसरी संशोधन प्रस्ताव प्रस्तुत गर्ने, प्रदेश सभाको सहमति प्राप्त गर्ने, र प्रमाणीकरण गर्ने लगायतका विषयहरू समावेश छन् (धारा २७४)।
+
+Citations:
+भाग ३१ – संविधान संशोधन | धारा २७४: संविधान संशोधन",1,
+q048,en,lookup,[274],[274],What is Article 274 about?,"Article 274 outlines the process for amending the Constitution of Nepal. It details the limitations on amendments, the introduction of bills, public publication requirements, the involvement of Provincial Assemblies, and the voting procedures needed for adoption. (Article 274)",1,
+q049,ne,lookup,[51],[51],धारा ५१ मा के छ?,"धारा ५१ मा राज्यले अनुसरण गर्ने नीतिहरू उल्लेख गरिएको छ। यी नीतिहरूमा राष्ट्रिय एकता र सुरक्षा, राजनीतिक तथा शासन व्यवस्था, र सामाजिक तथा सांस्कृतिक रूपान्तरण सम्बन्धी नीतिहरू समावेश छन्। यी नीतिहरूले विभिन्न क्षेत्रहरूमा राज्यको दायित्व र दृष्टिकोण स्पष्ट पार्छन्।
+
+(धारा ५१)",1,
+q050,en,lookup,[51],[51],What does Article 51 contain?,"Article 51 outlines the policies the State shall pursue, which are divided into three categories: national unity and national security, political and governance systems, and social and cultural transformation. These policies cover a wide range of areas, including maintaining national unity, promoting good governance, and building a society founded on cordial social relations. (Article 51)",0.5,wrong count: says policies are divided into three categories; Art 51 has 13 (a)-(m)
+q051,ne,fact,[9],[9],नेपालको राष्ट्रिय फूल कुन हो?,"नेपालको राष्ट्रिय फूल लालीगुराँस हो। राष्ट्रिय गान, निशान छाप र अन्य राष्ट्रिय प्रतीकहरूका बारेमा संविधानमा उल्लेख छ। राष्ट्रिय फूल, रङ्ग, जनावर र पक्षीको बारेमा धारा ९ मा जानकारी दिइएको छ।
+
+(धारा ९)",1,
+q052,en,fact,[9],[9],What is the national flower of Nepal?,"The national flower of Nepal is the Rhododendron Arboreum. It is also stated that the national color is crimson, the national animal is the cow, and the national bird is the Lophophorus. (Article 9)",1,
+q053,ne,paraphrase,[267],[267],नेपाली सेना परिचालन गर्ने निर्णय कसले गर्छ?,"नेपाली सेना परिचालन गर्ने निर्णय राष्ट्रिय सुरक्षा परिषदको सिफारिसमा नेपाल सरकार, मन्त्रिपरिषको निर्णय बमोजिम राष्ट्रपतिले गर्छ। घोषणा भएको मितिले एक महीनाभित्र प्रतिनिधि सभाबाट अनुमोदन गर्नुपर्छ। (धारा २६७: १, ६)
+
+Article २६७ (१, ६)",1,
+q054,en,paraphrase,[267],"[266, 267]",Who decides to mobilize the Nepal Army?,"The President declares the mobilization of the Nepal Army based on a decision of the Government of Nepal, Council of Ministers, on the recommendation of the National Security Council. This declaration must then be approved by the House of Representatives within one month. (Article 267(6))
+
+Article 267(6); Article 266(1); Article 267(2)",1,
+q055,ne,paraphrase,[14],[14],विदेशमा बस्ने नेपालीले कस्तो नागरिकता पाउन सक्छन्?,"विदेशी मुलुकमा बस्ने नेपालीलाई संघीय कानून बमोजिम आर्थिक, सामाजिक र सांस्कृतिक अधिकार उपभोग गर्न पाउने गरी नेपालको गैरआवासीय नागरिकता प्रदान गर्न सकिनेछ । यसका लागि उनीहरूले साबिकमा वंशजको वा जन्मको आधारमा नेपालको नागरिक हुनुपर्छ, र विदेशी मुलुकको नागरिकता प्राप्त गरेको दक्षिण एशियाली क्षेत्रीय सहयोग सङ्गठनको सदस्य राष्ट्र बाहेकका देशमा बसोबास गरेको हुनुपर्छ (धारा १४)।
+
+Citations:
+धारा १४",0.5,incomplete: omits that eligibility also covers a person whose parent or grandparent was a Nepali citizen
+q056,en,paraphrase,[14],[14],What kind of citizenship can Nepalis living abroad get?,"Nepalis living abroad can obtain non-resident Nepali citizenship if they have acquired the citizenship of a foreign country, resided in a country outside of the South Asian Association for Regional Cooperation, and previously had a parent, grandparent, or ancestor who was a citizen of Nepal by decent or birth. This allows them to enjoy economic, social, and cultural rights in accordance with federal law. (Article 14)",0.5,"wrong addition: adds 'ancestor' (Art 14 limits to self, parent or grandparent) and omits the person themself"
+q057,ne,negative,[],[],नेपालको हालको प्रधानमन्त्री को हुन्?,संविधानमा यस सम्बन्धी व्यवस्था फेला परेन।,1,
+q058,en,negative,[],[],Who is the current Prime Minister of Nepal?,I could not find this in the Constitution.,1,
+q059,ne,negative,[],[],नेपालमा आयकरको दर कति प्रतिशत छ?,मैले यो संविधानमा फेला परेन। (I could not find this in the Constitution.),1,
+q060,en,negative,[],[],What is the income tax rate in Nepal?,I could not find this in the Constitution.,1,

@@ -1,0 +1,18 @@
+== eval\manual_gemma3_12b.csv ==
+ALL        0.908 (n=60)
+lang=en         0.950 (n=30)
+lang=ne         0.867 (n=30)
+type=fact       0.806 (n=18)
+type=lookup     0.917 (n=6)
+type=negative   1.000 (n=6)
+type=paraphrase 0.950 (n=30)
+
+== eval\manual_gemma3_4b.csv ==
+ALL        0.833 (n=60)
+lang=en         0.800 (n=30)
+lang=ne         0.867 (n=30)
+type=fact       0.833 (n=18)
+type=lookup     1.000 (n=6)
+type=negative   0.917 (n=6)
+type=paraphrase 0.783 (n=30)
+

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+chroma_db/
+data/check_output.txt
+tessdata/
+data/ocr_test.txt
+tessdata/
+data/ocr_test.txt
+data/processed/
+data/*.txt
+data/raw/
+eval/validate_report.txt
+eval/review_sheet.txt
+eval/article_index.txt
+eval/punctuation_report.txt

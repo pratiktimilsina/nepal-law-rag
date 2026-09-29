@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="ne">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>नेपालको संविधान प्रश्नोत्तर</title>
+<link rel="icon" href='data:image/svg+xml,<svg viewBox="0 0 96 124" xmlns="http://www.w3.org/2000/svg"><path d="M5 5 L88 59 L35 59 L88 119 L5 119 Z" fill="%23DC143C" stroke="%23003893" stroke-width="7" stroke-linejoin="miter"/><circle cx="27" cy="44" r="12" fill="%23fff"/><circle cx="27" cy="38.5" r="12" fill="%23DC143C"/><polygon points="27.0,37.0 28.2,40.5 31.6,38.9 30.0,42.3 33.5,43.5 30.0,44.7 31.6,48.1 28.2,46.5 27.0,50.0 25.8,46.5 22.4,48.1 24.0,44.7 20.5,43.5 24.0,42.3 22.4,38.9 25.8,40.5" fill="%23fff"/><polygon points="29.0,78.0 31.2,83.8 36.0,79.9 35.0,86.0 41.1,85.0 37.2,89.8 43.0,92.0 37.2,94.2 41.1,99.0 35.0,98.0 36.0,104.1 31.2,100.2 29.0,106.0 26.8,100.2 22.0,104.1 23.0,98.0 16.9,99.0 20.8,94.2 15.0,92.0 20.8,89.8 16.9,85.0 23.0,86.0 22.0,79.9 26.8,83.8" fill="%23fff"/></svg>'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700&family=Noto+Serif+Devanagari:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #16213A; --muted: #5B6478; --paper: #FFFFFF; --wash: #F1F4F9;
+  --rule: #D9DEE7; --crimson: #B3122E; --blue: #1D3F8F; --green: #1E6B45;
+  --serif: "Noto Serif Devanagari", Georgia, serif;
+  --sans: "Mukta", "Noto Sans Devanagari", system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.6 var(--sans); }
+.page { max-width: 900px; margin: 0 auto; padding: 44px 24px 80px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+
+.brand { display: flex; align-items: center; gap: 22px; }
+.flag { height: calc((clamp(2.2rem, 6vw, 3.4rem) * 1.15 + 2.3rem) * 0.78); width: auto; aspect-ratio: 96 / 124; flex-shrink: 0; }
+@media (max-width: 560px) { .brand { gap: 14px; } }
+header h1 { font: 700 clamp(2.2rem, 6vw, 3.4rem)/1.15 var(--serif); margin: 0; }
+header .en { margin: .2rem 0 0; font: 500 1.25rem var(--sans); color: var(--muted); }
+header p { margin: .7rem 0 0; color: var(--muted); font-size: 1.02rem; max-width: 36em; }
+
+.ask { margin-top: 36px; background: var(--wash); border-radius: 14px; padding: 18px; }
+textarea { width: 100%; min-height: 96px; resize: vertical; border: 1px solid var(--rule);
+  border-radius: 10px; padding: 14px 16px; font: 1.15rem/1.5 var(--sans); color: var(--ink); background: #fff; }
+textarea:focus-visible { outline: 3px solid rgba(29, 63, 143, .3); border-color: var(--blue); }
+.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-top: 12px; }
+.toggle { display: inline-flex; border: 1px solid var(--rule); border-radius: 999px; background: #fff; padding: 3px; }
+.toggle button { border: 0; background: transparent; padding: 6px 16px; border-radius: 999px;
+  font: 500 .95rem var(--sans); color: var(--muted); cursor: pointer; white-space: nowrap; }
+.toggle button[aria-pressed="true"] { background: var(--blue); color: #fff; }
+.go { border: 0; background: var(--crimson); color: #fff; font: 700 1.05rem var(--sans);
+  padding: 10px 28px; border-radius: 999px; cursor: pointer; }
+.go:disabled { opacity: .6; cursor: progress; }
+
+.examples { margin-top: 24px; font-size: .95rem; color: var(--muted); }
+.ex-title { margin: 0 0 10px; color: var(--ink); font-weight: 700; }
+.examples div { display: grid; grid-template-columns: 80px 1fr; align-items: start; }
+.examples div + div { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--rule); }
+.examples span { grid-row: 1 / span 3; color: var(--ink); font-weight: 500; }
+@media (max-width: 560px) { .examples div { grid-template-columns: 1fr; } .examples span { grid-row: auto; margin-bottom: 4px; } .examples button { grid-column: 1; } }
+.examples button { grid-column: 2; justify-self: start; text-align: left; background: none; border: 0; padding: 0; margin: 0 0 4px; color: var(--blue);
+  font: inherit; cursor: pointer; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+
+#result { margin-top: 48px; }
+#result:empty { margin-top: 0; }
+.steps { list-style: none; margin: 0; padding: 0; color: var(--muted); }
+.steps li { margin: 2px 0; }
+.steps .done { color: var(--green); }
+.steps .now { color: var(--ink); }
+.status { color: var(--muted); }
+.answer { max-width: 760px; font: 500 1.35rem/1.8 var(--serif); margin: 0 0 .8em; }
+.cite { display: inline-block; font: 500 .85rem/1 var(--sans); color: var(--crimson); border: 1px solid currentColor;
+  border-radius: 999px; padding: 4px 9px; margin: 0 2px; text-decoration: none; vertical-align: 2px; }
+.cite:hover { background: var(--crimson); color: #fff; }
+.tools { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.ground { font-size: .95rem; margin: 0; }
+.ground.ok { color: var(--green); }
+.ground.bad { color: var(--crimson); }
+.btn2 { border: 1px solid var(--rule); background: #fff; color: var(--blue); font: 500 .9rem var(--sans);
+  padding: 4px 14px; border-radius: 999px; cursor: pointer; }
+.btn2:hover { border-color: var(--blue); }
+h2 { font: 700 1.1rem var(--sans); margin: 40px 0 4px; }
+
+.article { display: grid; grid-template-columns: 96px 1fr; gap: 20px; padding: 20px 0; border-top: 1px solid var(--rule); }
+.article:target, .article.flash { background: var(--wash); box-shadow: 0 0 0 12px var(--wash); }
+.numeral { font: 700 2.6rem/1 var(--serif); color: var(--crimson); text-align: right; }
+.numeral small { display: block; font: 500 .8rem var(--sans); color: var(--muted); margin-bottom: 6px; }
+.numeral .clause { display: block; font-size: 1.05rem; margin-top: 4px; }
+.article h3 { margin: 0; font: 700 1.1rem/1.4 var(--sans); }
+.article .part { margin: 2px 0 8px; color: var(--muted); font-size: .9rem; }
+.article .body { margin: 0; font-size: 1rem; line-height: 1.75; }
+mark { background: #FBE3E7; color: inherit; padding: 1px 2px; border-radius: 3px; }
+.warn { border-left: 3px solid var(--crimson); padding: 10px 14px; background: #FFF3F4; }
+
+details { margin-top: 20px; border-top: 1px solid var(--rule); padding-top: 12px; }
+summary { cursor: pointer; color: var(--blue); font-weight: 500; }
+details .note { color: var(--muted); font-size: .95rem; margin: 8px 0 0; }
+details .article { grid-template-columns: 64px 1fr; }
+details .numeral { font-size: 1.8rem; color: var(--muted); }
+dl.meta { display: grid; grid-template-columns: max-content 1fr; gap: 4px 20px; margin: 12px 0 0; font-size: .95rem; }
+dl.meta dt { color: var(--muted); }
+dl.meta dd { margin: 0; }
+
+footer { margin-top: 12px; font-size: .9rem; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 16px; }
+#health { margin: 24px 0 0; font-size: .9rem; color: var(--muted); }
+#health .ok { color: var(--green); }
+#health .bad { color: var(--crimson); }
+
+@media (max-width: 560px) {
+  .page { padding-top: 32px; }
+  .article, details .article { grid-template-columns: 1fr; gap: 6px; }
+  .numeral { text-align: left; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  #result.fresh { animation: rise .35s ease-out; }
+  .article { transition: background-color .3s; }
+}
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+</style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <div class="brand">
+      <svg class="flag" viewBox="0 0 96 124" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flag of Nepal"><path d="M5 5 L88 59 L35 59 L88 119 L5 119 Z" fill="#DC143C" stroke="#003893" stroke-width="7" stroke-linejoin="miter"/><circle cx="27" cy="44" r="12" fill="#fff"/><circle cx="27" cy="38.5" r="12" fill="#DC143C"/><polygon points="27.0,37.0 28.2,40.5 31.6,38.9 30.0,42.3 33.5,43.5 30.0,44.7 31.6,48.1 28.2,46.5 27.0,50.0 25.8,46.5 22.4,48.1 24.0,44.7 20.5,43.5 24.0,42.3 22.4,38.9 25.8,40.5" fill="#fff"/><polygon points="29.0,78.0 31.2,83.8 36.0,79.9 35.0,86.0 41.1,85.0 37.2,89.8 43.0,92.0 37.2,94.2 41.1,99.0 35.0,98.0 36.0,104.1 31.2,100.2 29.0,106.0 26.8,100.2 22.0,104.1 23.0,98.0 16.9,99.0 20.8,94.2 15.0,92.0 20.8,89.8 16.9,85.0 23.0,86.0 22.0,79.9 26.8,83.8" fill="#fff"/></svg>
+      <div>
+        <h1>नेपालको संविधान प्रश्नोत्तर</h1>
+        <p class="en">Constitution of Nepal Q&amp;A</p>
+      </div>
+    </div>
+    <p>Ask in Nepali or English. Each answer is generated locally from passages of the Constitution of Nepal (2015) and shows the articles it cites.</p>
+  </header>
+
+  <section class="ask" aria-label="Ask a question">
+    <label for="q" class="sr">Question</label>
+    <textarea id="q" placeholder="जस्तै: सूचनाको हक सम्बन्धी संविधानमा के व्यवस्था छ?"></textarea>
+    <div class="controls">
+      <div class="toggle" role="group" aria-label="Model">
+        <button type="button" data-model="gemma3:4b" aria-pressed="true">Gemma 3 4B</button>
+        <button type="button" data-model="gemma3:12b" aria-pressed="false">Gemma 3 12B</button>
+      </div>
+      <button type="button" class="go" id="go">सोध्नुहोस् / Ask</button>
+    </div>
+    <div class="examples">
+      <p class="ex-title">उदाहरण प्रश्नहरू / Example questions</p>
+      <div><span>नेपाली</span><button type="button">सूचनाको हक सम्बन्धी संविधानमा के व्यवस्था छ?</button><button type="button">सांसद बन्न न्यूनतम उमेर कति चाहिन्छ?</button><button type="button">धारा २९ मा के व्यवस्था छ?</button></div>
+      <div><span>English</span><button type="button">Can the government censor news before it is published?</button><button type="button">How soon after arrest must police bring a person before a court?</button><button type="button">How many members are there in the House of Representatives?</button></div>
+    </div>
+  </section>
+
+  <section id="result" aria-live="polite"></section>
+
+  <p id="health"></p>
+
+  <footer>
+    Not legal advice. Answers are generated by a local language model and can be wrong, so check the cited articles before relying on them. Source: the Constitution of Nepal (2015), as amended up to 2020, in the Nepali text and its English translation published by the Nepal Law Commission. The Nepali text was extracted with OCR and may contain small errors.
+  </footer>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+let model = "gemma3:4b";
+
+document.querySelectorAll(".toggle button").forEach(b => b.onclick = () => {
+  model = b.dataset.model;
+  document.querySelectorAll(".toggle button").forEach(x => x.setAttribute("aria-pressed", x === b));
+});
+document.querySelectorAll(".examples button").forEach(b => b.onclick = () => { $("#q").value = b.textContent; ask(); });
+$("#go").onclick = ask;
+$("#q").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); ask(); } });
+
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const DEVD = "०१२३४५६७८९";
+const toInt = s => parseInt(s.replace(/[०-९]/g, d => DEVD.indexOf(d)), 10);
+const clauseKey = cl => { const m = cl.match(/\(([०-९0-9]+)\)/); return m ? "-" + toInt(m[1]) : ""; };
+
+// health line in the footer
+fetch("/api/health").then(r => r.json()).then(h => {
+  $("#health").innerHTML = (h.ollama
+      ? `<span class="ok">●</span> Model server connected`
+      : `<span class="bad">●</span> Model server not reachable, start Ollama`)
+    + ` · ${h.passages} passages indexed`;
+}).catch(() => { $("#health").innerHTML = `<span class="bad">●</span> Backend not reachable`; });
+
+// chip -> matching clause card
+$("#result").addEventListener("click", e => {
+  const chip = e.target.closest(".cite");
+  if (!chip) return;
+  e.preventDefault();
+  const el = document.getElementById(chip.dataset.id) || document.querySelector(`.article[data-article="${chip.dataset.art}"]`);
+  if (!el) return;
+  el.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
+  document.querySelectorAll(".flash").forEach(x => x.classList.remove("flash"));
+  el.classList.add("flash");
+  setTimeout(() => el.classList.remove("flash"), 1800);
+});
+
+function renderAnswer(text, cited) {
+  let h = esc(text).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  h = h.replace(/(\(\s*)?(धारा|Article)\s*([०-९0-9]{1,3})((?:\s*\([^)\s]{1,4}\))*)(\s*\))?/gi,
+    (m, open, w, n, cl, close) => {
+      const k = toInt(n);
+      if (!cited.has(k)) return m;
+      const chip = `<a class="cite" href="#c-${k}${clauseKey(cl)}" data-id="c-${k}${clauseKey(cl)}" data-art="${k}">${w} ${n}${cl.replace(/\s+/g, "")}</a>`;
+      if (open && close) return chip;
+      return (open || "") + chip + (close || "");
+    });
+  h = h.replace(/(<a class="cite"[^>]*>[^<]*<\/a>)(?:[\s,]*\1)+/g, "$1");  // merge repeated chips
+  return h.split(/\n{2,}/).map(p => `<p class="answer">${p.replace(/\n/g, "<br>")}</p>`).join("");
+}
+
+function highlight(body, mark) {
+  const b = esc(body);
+  if (!mark) return b;
+  const mk = esc(mark), i = b.indexOf(mk);
+  if (i < 0) return b;
+  const next = b.slice(i + mk.length).search(/\([०-९0-9]+\)/);
+  const end = next < 0 ? b.length : i + mk.length + next;
+  return b.slice(0, i) + "<mark>" + b.slice(i, end) + "</mark>" + b.slice(end);
+}
+
+function card(c, secondary) {
+  if (!c.retrieved) {
+    return `<div class="article warn" id="${c.id}" data-article="${c.article}"><div class="numeral">!</div><div>
+      <h3>${esc(c.label)}</h3><p class="body">The answer cites this article, but it was not among the passages
+      the system retrieved. Treat this citation with caution.</p></div></div>`;
+  }
+  const clause = c.clause && !secondary ? `<span class="clause">${esc(c.clause)}</span>` : "";
+  const attrs = secondary ? "" : ` id="${c.id}" data-article="${c.article}"`;
+  return `<article class="article"${attrs}>
+    <div class="numeral"><small>${esc(c.word)}</small>${esc(c.numeral)}${clause}</div>
+    <div><h3>${esc(c.title)}</h3><p class="part">${esc(c.part)}</p>
+    <p class="body">${secondary ? esc(c.body) : highlight(c.body, c.mark)}</p></div></article>`;
+}
+
+let state = null;
+function drawSteps() {
+  const el = $("#steps");
+  if (!el || !state) return;
+  const secs = t => Math.round((Date.now() - t) / 1000);
+  el.innerHTML = state.phase === "search"
+    ? `<li class="now">● Searching the Constitution… ${secs(state.t0)} s</li>`
+    : `<li class="done">✓ Searched the Constitution in ${state.rs} s</li>
+       <li class="done">✓ Retrieved the ${state.n} closest passages, from ${state.a} ${state.a === 1 ? "article" : "articles"}</li>
+       <li class="now">● Writing the answer… ${secs(state.g0)} s</li>`;
+}
+
+function render(d) {
+  const cited = new Set(d.citations.map(c => c.article));
+  let h = renderAnswer(d.answer, cited);
+  h += `<div class="tools">`;
+  if (d.citations.length) {
+    h += d.meta.grounded
+      ? `<p class="ground ok">✓ Every cited article is among the retrieved passages.</p>`
+      : `<p class="ground bad">⚠ Some cited articles were not among the retrieved passages.</p>`;
+  }
+  h += `<button type="button" class="btn2" id="copy">Copy answer</button></div>`;
+  h += `<h2>उद्धृत धाराहरू / Cited articles</h2>`;
+  h += d.citations.length ? d.citations.map(c => card(c, false)).join("")
+                          : `<p class="status">This answer does not cite any article.</p>`;
+  if (d.other.length) {
+    h += `<details><summary>Other passages retrieved (${d.other.length})</summary>
+          <p class="note">The system found these passages but the answer does not cite them. They are not necessarily relevant.</p>
+          ${d.other.map(c => card(c, true)).join("")}</details>`;
+  }
+  const m = d.meta;
+  h += `<details><summary>How this answer was generated</summary><dl class="meta">
+        <dt>Model</dt><dd>${esc(m.model)}</dd>
+        <dt>Passages retrieved</dt><dd>${m.passages}</dd>
+        <dt>Articles cited</dt><dd>${m.articles_cited}</dd>
+        <dt>Time</dt><dd>${(m.retrieve_s + m.generate_s).toFixed(1)} s (retrieval ${m.retrieve_s} s, generation ${m.generate_s} s)</dd>
+        <dt>Output length</dt><dd>${m.output_tokens} tokens</dd></dl></details>`;
+  const res = $("#result");
+  res.innerHTML = h;
+  void res.offsetWidth;
+  res.className = "fresh";
+
+  $("#copy").onclick = () => {
+    const cites = d.citations.map(c => `${c.label}${c.title ? ": " + c.title : ""}`).join("\n");
+    const text = d.answer + (cites ? "\n\n" + cites : "");
+    navigator.clipboard.writeText(text)
+      .then(() => { $("#copy").textContent = "Copied"; })
+      .catch(() => { $("#copy").textContent = "Copy failed"; });
+    setTimeout(() => { const b = $("#copy"); if (b) b.textContent = "Copy answer"; }, 1500);
+  };
+}
+
+async function ask() {
+  const q = $("#q").value.trim();
+  if (!q) { $("#q").focus(); return; }
+  const go = $("#go"), res = $("#result");
+  go.disabled = true;
+  res.className = "";
+  res.innerHTML = `<ul class="steps" id="steps"></ul>`;
+  state = { phase: "search", t0: Date.now() };
+  drawSteps();
+  const timer = setInterval(drawSteps, 1000);
+  let finished = false;
+  try {
+    const r = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
+                                        body: JSON.stringify({ question: q, model }) });
+    const reader = r.body.getReader(), dec = new TextDecoder();
+    let buf = "";
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, { stream: true });
+      let i;
+      while ((i = buf.indexOf("\n")) >= 0) {
+        const ln = buf.slice(0, i).trim();
+        buf = buf.slice(i + 1);
+        if (!ln) continue;
+        const ev = JSON.parse(ln);
+        if (ev.error) throw new Error(ev.error);
+        if (ev.stage === "retrieved") {
+          state = { phase: "generate", rs: ev.retrieve_s, n: ev.passages, a: ev.articles, g0: Date.now() };
+          drawSteps();
+        } else if (ev.stage === "done") {
+          finished = true;
+          render(ev);
+        }
+      }
+    }
+    if (!finished) throw new Error("The server stopped before the answer was finished.");
+  } catch (e) {
+    const msg = e instanceof TypeError ? "Could not reach the server. Check that server.py is running." : e.message;
+    res.innerHTML = `<p class="warn">${esc(msg)}</p>`;
+  } finally {
+    clearInterval(timer);
+    state = null;
+    go.disabled = false;
+  }
+}
+</script>
+</body>
+</html>

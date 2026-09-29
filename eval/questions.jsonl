@@ -1,0 +1,61 @@
+﻿{"id": "q001", "lang": "ne", "type": "fact", "q": "नेपालको सरकारी कामकाजको भाषा कुन हो?", "gold": [7]}
+{"id": "q002", "lang": "en", "type": "fact", "q": "What is the official language of Nepal?", "gold": [7]}
+{"id": "q003", "lang": "ne", "type": "paraphrase", "q": "प्रधान न्यायाधीशलाई कसले नियुक्त गर्छ?", "gold": [129]}
+{"id": "q004", "lang": "en", "type": "paraphrase", "q": "Who appoints the Chief Justice of Nepal?", "gold": [129]}
+{"id": "q005", "lang": "ne", "type": "lookup", "q": "धारा २९ मा के व्यवस्था छ?", "gold": [29]}
+{"id": "q006", "lang": "en", "type": "lookup", "q": "What does Article 29 say?", "gold": [29]}
+{"id": "q007", "lang": "ne", "type": "paraphrase", "q": "कसैलाई उसको इच्छा विपरीत जबरजस्ती काममा लगाउन पाइन्छ?", "gold": [29]}
+{"id": "q008", "lang": "en", "type": "paraphrase", "q": "Can a person be forced to work against their will?", "gold": [29]}
+{"id": "q009", "lang": "ne", "type": "negative", "q": "नेपालमा न्यूनतम ज्याला कति छ?", "gold": []}
+{"id": "q010", "lang": "en", "type": "negative", "q": "What is the minimum wage in Nepal?", "gold": []}
+{"id": "q011", "lang": "ne", "type": "paraphrase", "q": "प्रहरीले पक्राउ गरेपछि कति घण्टाभित्र अदालतमा पेश गर्नुपर्छ?", "gold": [20]}
+{"id": "q012", "lang": "en", "type": "paraphrase", "q": "How soon after arrest must police bring a person before a court?", "gold": [20]}
+{"id": "q013", "lang": "ne", "type": "fact", "q": "नेपालमा मृत्युदण्डको सजाय दिन मिल्छ?", "gold": [16]}
+{"id": "q014", "lang": "en", "type": "fact", "q": "Does the Constitution allow the death penalty?", "gold": [16]}
+{"id": "q015", "lang": "ne", "type": "paraphrase", "q": "सरकारले पत्रिकाको समाचार छाप्नुअघि रोक्न सक्छ?", "gold": [19]}
+{"id": "q016", "lang": "en", "type": "paraphrase", "q": "Can the government censor news before it is published?", "gold": [19]}
+{"id": "q017", "lang": "ne", "type": "fact", "q": "सूचनाको हक सम्बन्धी संविधानमा के व्यवस्था छ?", "gold": [27]}
+{"id": "q018", "lang": "en", "type": "fact", "q": "What does the Constitution say about the right to information?", "gold": [27]}
+{"id": "q019", "lang": "ne", "type": "paraphrase", "q": "सरकारी विद्यालयमा कुन तहसम्म निःशुल्क पढ्न पाइन्छ?", "gold": [31]}
+{"id": "q020", "lang": "en", "type": "paraphrase", "q": "Up to what level is education free in public schools?", "gold": [31]}
+{"id": "q021", "lang": "ne", "type": "paraphrase", "q": "सरकारी अस्पतालमा आधारभूत उपचार निःशुल्क पाइन्छ?", "gold": [35]}
+{"id": "q022", "lang": "en", "type": "paraphrase", "q": "Are basic health services provided free of cost?", "gold": [35]}
+{"id": "q023", "lang": "ne", "type": "paraphrase", "q": "सरकारले कसैको जग्गा लिँदा मुआब्जा दिनुपर्छ?", "gold": [25]}
+{"id": "q024", "lang": "en", "type": "paraphrase", "q": "Must the state pay compensation when it acquires someone's land?", "gold": [25]}
+{"id": "q025", "lang": "ne", "type": "fact", "q": "राष्ट्रपतिको पदावधि कति वर्षको हुन्छ?", "gold": [63]}
+{"id": "q026", "lang": "en", "type": "fact", "q": "What is the term of office of the President?", "gold": [63]}
+{"id": "q027", "lang": "ne", "type": "fact", "q": "राष्ट्रपति हुन कम्तीमा कति वर्ष उमेर पुगेको हुनुपर्छ?", "gold": [64]}
+{"id": "q028", "lang": "en", "type": "fact", "q": "What is the minimum age to become President?", "gold": [64]}
+{"id": "q029", "lang": "ne", "type": "paraphrase", "q": "प्रधानमन्त्री कसरी नियुक्त हुन्छ?", "gold": [76]}
+{"id": "q030", "lang": "en", "type": "paraphrase", "q": "How is the Prime Minister appointed?", "gold": [76]}
+{"id": "q031", "lang": "ne", "type": "fact", "q": "प्रतिनिधि सभामा जम्मा कति सदस्य हुन्छन्?", "gold": [84]}
+{"id": "q032", "lang": "en", "type": "fact", "q": "How many members are there in the House of Representatives?", "gold": [84]}
+{"id": "q033", "lang": "ne", "type": "fact", "q": "राष्ट्रिय सभामा कति सदस्य रहन्छन्?", "gold": [86]}
+{"id": "q034", "lang": "en", "type": "fact", "q": "How many members does the National Assembly have?", "gold": [86]}
+{"id": "q035", "lang": "ne", "type": "paraphrase", "q": "सांसद बन्न न्यूनतम उमेर कति चाहिन्छ?", "gold": [87]}
+{"id": "q036", "lang": "en", "type": "paraphrase", "q": "What is the minimum age to become a member of parliament?", "gold": [87]}
+{"id": "q037", "lang": "ne", "type": "paraphrase", "q": "उच्च अदालतको मुख्य न्यायाधीश कसरी नियुक्त हुन्छ?", "gold": [140]}
+{"id": "q038", "lang": "en", "type": "paraphrase", "q": "How is the Chief Judge of a High Court appointed?", "gold": [140]}
+{"id": "q039", "lang": "ne", "type": "fact", "q": "नेपालमा कति वटा प्रदेश छन्?", "gold": [56]}
+{"id": "q040", "lang": "en", "type": "fact", "q": "How many provinces does Nepal have?", "gold": [56]}
+{"id": "q041", "lang": "ne", "type": "paraphrase", "q": "गाउँपालिका र नगरपालिकाको अधिकार कहाँ तोकिएको छ?", "gold": [57, 214, 221]}
+{"id": "q042", "lang": "en", "type": "paraphrase", "q": "Where are the powers of local governments defined?", "gold": [57, 214, 221]}
+{"id": "q043", "lang": "ne", "type": "paraphrase", "q": "अख्तियार दुरुपयोग अनुसन्धान आयोग कसरी गठन हुन्छ र यसले के काम गर्छ?", "gold": [238, 239]}
+{"id": "q044", "lang": "en", "type": "paraphrase", "q": "How is the CIAA formed and what does it do?", "gold": [238, 239]}
+{"id": "q045", "lang": "ne", "type": "paraphrase", "q": "देशमा ठूलो प्राकृतिक प्रकोप आएमा राष्ट्रपतिले के गर्न सक्छ?", "gold": [273]}
+{"id": "q046", "lang": "en", "type": "paraphrase", "q": "What can the President do if a major natural disaster strikes the country?", "gold": [273]}
+{"id": "q047", "lang": "ne", "type": "lookup", "q": "धारा २७४ के बारेमा हो?", "gold": [274]}
+{"id": "q048", "lang": "en", "type": "lookup", "q": "What is Article 274 about?", "gold": [274]}
+{"id": "q049", "lang": "ne", "type": "lookup", "q": "धारा ५१ मा के छ?", "gold": [51]}
+{"id": "q050", "lang": "en", "type": "lookup", "q": "What does Article 51 contain?", "gold": [51]}
+{"id": "q051", "lang": "ne", "type": "fact", "q": "नेपालको राष्ट्रिय फूल कुन हो?", "gold": [9]}
+{"id": "q052", "lang": "en", "type": "fact", "q": "What is the national flower of Nepal?", "gold": [9]}
+{"id": "q053", "lang": "ne", "type": "paraphrase", "q": "नेपाली सेना परिचालन गर्ने निर्णय कसले गर्छ?", "gold": [267]}
+{"id": "q054", "lang": "en", "type": "paraphrase", "q": "Who decides to mobilize the Nepal Army?", "gold": [267]}
+{"id": "q055", "lang": "ne", "type": "paraphrase", "q": "विदेशमा बस्ने नेपालीले कस्तो नागरिकता पाउन सक्छन्?", "gold": [14]}
+{"id": "q056", "lang": "en", "type": "paraphrase", "q": "What kind of citizenship can Nepalis living abroad get?", "gold": [14]}
+{"id": "q057", "lang": "ne", "type": "negative", "q": "नेपालको हालको प्रधानमन्त्री को हुन्?", "gold": []}
+{"id": "q058", "lang": "en", "type": "negative", "q": "Who is the current Prime Minister of Nepal?", "gold": []}
+{"id": "q059", "lang": "ne", "type": "negative", "q": "नेपालमा आयकरको दर कति प्रतिशत छ?", "gold": []}
+{"id": "q060", "lang": "en", "type": "negative", "q": "What is the income tax rate in Nepal?", "gold": []}
+

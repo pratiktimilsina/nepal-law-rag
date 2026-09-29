@@ -1,0 +1,80 @@
+model: gemma3:4b
+
+--- ALL (n=60) ---
+refusal on negatives:      3/6 (50%)
+false refusals:            0/54 (0%)
+citation recall:           51/54 (94%)
+citation precision:        55/67 (82%)
+latin words in ne answers: 0/30 (0%)
+devanagari in en answers:  9/30 (30%)
+mean generate time:        2.0s | mean output tokens 68
+
+--- Nepali (n=30) ---
+refusal on negatives:      2/3 (67%)
+false refusals:            0/27 (0%)
+citation recall:           26/27 (96%)
+citation precision:        28/30 (93%)
+latin words in ne answers: 0/30 (0%)
+devanagari in en answers:  n/a
+mean generate time:        1.9s | mean output tokens 61
+
+--- English (n=30) ---
+refusal on negatives:      1/3 (33%)
+false refusals:            0/27 (0%)
+citation recall:           25/27 (93%)
+citation precision:        27/37 (73%)
+latin words in ne answers: n/a
+devanagari in en answers:  9/30 (30%)
+mean generate time:        2.1s | mean output tokens 75
+
+flagged answers:
+  q008 [en/paraphrase] devanagari in English answer
+     Q: Can a person be forced to work against their will?
+     A: According to Article 29(4), no one shall be forced to work against their will. This article specifically addresses the right to freedom from forced labor. (धारा २९(४))
+  q010 [en/negative] negative NOT refused
+     Q: What is the minimum wage in Nepal?
+     A: The Constitution of Nepal does not explicitly state a minimum wage. Instead, it outlines how the remuneration and facilities for various officials, including the Prime Minister, Ministers, Speaker, Auditor General, and others, will be determined. These figures are to be established through federal l
+  q014 [en/fact] devanagari in English answer
+     Q: Does the Constitution allow the death penalty?
+     A: No, the Constitution does not allow the death penalty. Article 16 explicitly states that no law shall be made providing for the death penalty to anyone. (धारा १६)
+  q018 [en/fact] devanagari in English answer
+     Q: What does the Constitution say about the right to information?
+     A: The Constitution guarantees every citizen the right to demand and receive information regarding matters of personal or public interest. However, this right is limited by the need to maintain confidentiality as dictated by law. This right to information is specifically outlined in Article 27. (धारा २
+  q020 [en/paraphrase] devanagari in English answer
+     Q: Up to what level is education free in public schools?
+     A: Education is free up to the secondary level in public schools according to the Constitution. This ensures that all citizens have access to compulsory and free education up to the basic level and free education up to the secondary level from the State. (धारा ३१ (२))
+  q022 [en/paraphrase] devanagari in English answer
+     Q: Are basic health services provided free of cost?
+     A: Yes, basic health services are provided free of cost to every citizen. This is explicitly stated in Article 35(1) of the Constitution. (धारा ३५(१))
+  q024 [en/paraphrase] devanagari in English answer
+     Q: Must the state pay compensation when it acquires someone's land?
+     A: The State shall not, except for public interest, requisition, acquire, or otherwise create any encumbrance on, property of a person. Provided that this clause shall not apply to any property acquired by any person illicitly. (2) 
+
+धारा २५ (२)
+  q028 [en/fact] devanagari in English answer
+     Q: What is the minimum age to become President?
+     A: The Constitution of Nepal stipulates that a candidate for President must be at least forty-five years old. This age requirement is outlined in Article 64(1)(b) of the Constitution. (धारा ६४(१)(ख))
+  q034 [en/fact] no gold cite (cited [], gold [86])
+     Q: How many members does the National Assembly have?
+     A: The National Assembly shall consist of fifty-nine members as follows: - (a) Fifty six elected members consisting of at least three women, one Dalit and one from persons with disabilities or minorities, from each Province by an electoral college consisting of members of the Provincial Assembly, chair
+  q036 [en/paraphrase] devanagari in English answer
+     Q: What is the minimum age to become a member of parliament?
+     A: To become a member of parliament, a person must be at least twenty-five years old for the House of Representatives and thirty-five years old for the National Assembly. (Article 87) / (धारा ८७)
+  q038 [en/paraphrase] no gold cite (cited [], gold [140])
+     Q: How is the Chief Judge of a High Court appointed?
+     A: The Chief Judge of a High Court shall be appointed on the recommendation of the Judicial Council. Any citizen of Nepal who has obtained a bachelor’s degree in law and served as a Judge of a District Court for at least five years or who has obtained a bachelor’s degree in law and constantly practised
+  q051 [ne/fact] no gold cite (cited [3], gold [9])
+     Q: नेपालको राष्ट्रिय फूल कुन हो?
+     A: नेपालको राष्ट्रिय फूल लालीगुराँस हो।
+(धारा ३)
+  q052 [en/fact] devanagari in English answer
+     Q: What is the national flower of Nepal?
+     A: The national flower of Nepal is the Rhododendron Arboreum. (धारा ९) This flower is specifically designated as the national flower within Article 3 of Part 1 – Preliminary.
+  q057 [ne/negative] negative NOT refused
+     Q: नेपालको हालको प्रधानमन्त्री को हुन्?
+     A: हालको प्रधानमन्त्री को बारेमा यस संविधानमा कुनै जानकारी पाइदैन। 
+
+(धारा ७७)
+  q060 [en/negative] negative NOT refused
+     Q: What is the income tax rate in Nepal?
+     A: The Constitution of Nepal does not specify a particular income tax rate. Instead, it outlines the legal framework for levying and collecting taxes, stating that taxes must be levied and collected in accordance with law (Article 115). Furthermore, the government is responsible for determining the spe

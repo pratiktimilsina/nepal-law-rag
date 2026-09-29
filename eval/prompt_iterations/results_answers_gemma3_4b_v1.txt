@@ -1,0 +1,94 @@
+model: gemma3:4b
+
+--- ALL (n=60) ---
+refusal on negatives:      5/6 (83%)
+false refusals:            0/54 (0%)
+citation recall:           45/54 (83%)
+citation precision:        47/67 (70%)
+latin words in ne answers: 1/30 (3%)
+devanagari in en answers:  13/30 (43%)
+mean generate time:        2.1s | mean output tokens 75
+
+--- Nepali (n=30) ---
+refusal on negatives:      3/3 (100%)
+false refusals:            0/27 (0%)
+citation recall:           23/27 (85%)
+citation precision:        24/31 (77%)
+latin words in ne answers: 1/30 (3%)
+devanagari in en answers:  n/a
+mean generate time:        2.0s | mean output tokens 66
+
+--- English (n=30) ---
+refusal on negatives:      2/3 (67%)
+false refusals:            0/27 (0%)
+citation recall:           22/27 (81%)
+citation precision:        23/36 (64%)
+latin words in ne answers: n/a
+devanagari in en answers:  13/30 (43%)
+mean generate time:        2.3s | mean output tokens 84
+
+flagged answers:
+  q001 [ne/fact] latin words ['Article']
+     Q: नेपालको सरकारी कामकाजको भाषा कुन हो?
+     A: नेपालको सरकारी कामकाजको भाषा देवनागरी लिपिमा लेखिने नेपाली भाषा हो। यसले प्रदेशहरूले आफ्नो प्रदेशमा बहुसंख्यक जनताले बोल्ने अन्य राष्ट्रभाषाहरू प्रयोग गर्न सक्ने अनुमति दिन्छ। (धारा ७, Article 7)
+  q003 [ne/paraphrase] no gold cite (cited [140], gold [129])
+     Q: प्रधान न्यायाधीशलाई कसले नियुक्त गर्छ?
+     A: प्रधानन्यायपतिको नियुक्तिको सिफारिस संवैधानिक परिषदले गर्छ। यसमा प्रधानमन्त्री अध्यक्ष रहेर अन्य सदस्यहरूमध्ये सभामुख, राष्ट्रिय सभाका अध्यक्ष, प्रतिनिधि सभाका विपक्षी दलको नेता, उपसभामुख र कानून तथा न्याय मन्त्री पनि समावेश छन्। (धारा १४०)
+  q006 [en/lookup] devanagari in English answer
+     Q: What does Article 29 say?
+     A: Article 29 states that every person has the right against exploitation, and no one shall be exploited on the grounds of religion, custom, or any other reason. Additionally, trafficking, slavery, and forced labor are prohibited, and acts violating these clauses are punishable with compensation for th
+  q012 [en/paraphrase] no gold cite (cited [7], gold [20]); devanagari in English answer
+     Q: How soon after arrest must police bring a person before a court?
+     A: Within twenty-four hours of arrest, excluding the time necessary for the journey from the place of arrest to the adjudicating authority. This clause shall not apply to a person held in preventive detention and to a citizen of an enemy State. [धारा ७]
+  q014 [en/fact] devanagari in English answer
+     Q: Does the Constitution allow the death penalty?
+     A: No, the Constitution does not allow the death penalty. Article 16 (धारा १६) states that no law shall be made providing for the death penalty to anyone.
+  q018 [en/fact] devanagari in English answer
+     Q: What does the Constitution say about the right to information?
+     A: The Constitution of Nepal guarantees every citizen the right to demand and receive information on matters of their interest or public interest. However, this right is limited by the need to maintain confidential information as dictated by law. (धारा २७) 
+
+Article 27 states: “Every citizen shall have
+  q019 [ne/paraphrase] no gold cite (cited [40], gold [31])
+     Q: सरकारी विद्यालयमा कुन तहसम्म निःशुल्क पढ्न पाइन्छ?
+     A: सरकारी विद्यालयमा माध्यमिक तहसम्म निःशुल्क पढ्न पाइन्छ। (धारा ४०(२))
+  q020 [en/paraphrase] devanagari in English answer
+     Q: Up to what level is education free in public schools?
+     A: Education is free up to the secondary level in public schools according to the Constitution of Nepal. This includes compulsory education at the basic level and free education up to the secondary level provided by the State. (धारा ३१ (२), Article 31 (2))
+  q022 [en/paraphrase] devanagari in English answer
+     Q: Are basic health services provided free of cost?
+     A: Yes, basic health services are provided free of cost to every citizen. (धारा ३५ (१)) Every citizen shall have the right to free basic health services from the State, and no one shall be deprived of emergency health services. (Article 35 (1))
+  q026 [en/fact] no gold cite (cited [7, 65], gold [63]); devanagari in English answer
+     Q: What is the term of office of the President?
+     A: The President’s term of office is five years from the date of their election. (धारा ७(१)) Additionally, the President continues to discharge their functions until a new President is elected. (धारा ७(२)) The President’s term also ends due to resignation, impeachment, expiration, or death. (धारा ६५)
+  q028 [en/fact] devanagari in English answer
+     Q: What is the minimum age to become President?
+     A: The minimum age to become President is forty-five years. This requirement is outlined in (धारा ६४(१)(ख)) and (Article 64(1)(b)).
+  q032 [en/fact] devanagari in English answer
+     Q: How many members are there in the House of Representatives?
+     A: The House of Representatives consists of a total of two hundred and seventy-five members. (धारा ७) This number is broken down into one hundred and sixty-five members elected through the first past the post system and one hundred and ten members elected through the proportional electoral system. (Art
+  q037 [ne/paraphrase] no gold cite (cited [7], gold [140])
+     Q: उच्च अदालतको मुख्य न्यायाधीश कसरी नियुक्त हुन्छ?
+     A: उच्च अदालतको मुख्य न्यायाधीशको नियुक्ति प्रधान न्यायाधीशले न्याय परिषदको सिफारिसमा गर्छन्। यसको लागि योग्यता पुगेका व्यक्तिहरूमध्येबाट जिल्ला न्यायाधीशको हकमा निजले वार्षिक रूपमा फैसला गरेको मुद्दाको अनुपात र माथिल्लो अदालतमा अन्तिम निर्णय हुँदा मुद्दा सदर बदर वा उल्टी भएको मूल्याङ्कनगको आधारमा, न्य
+  q040 [en/fact] no gold cite (cited [5, 7], gold [56]); devanagari in English answer
+     Q: How many provinces does Nepal have?
+     A: Nepal currently has three levels of governance: the Federation, the Provinces, and the Local Levels. At the time of the Constitution’s commencement, there were three Provinces, and this number may be adjusted through federal law or provincial assembly decisions. (धारा ७) Furthermore, the Constitutio
+  q044 [en/paraphrase] no gold cite (cited [7, 301], gold [238, 239]); devanagari in English answer
+     Q: How is the CIAA formed and what does it do?
+     A: The Commission for the Investigation of Abuse of Authority (CIAA) was formed by continuing the officials who were already in office at the time the Constitution came into effect, specifically those in the CIAA and the Public Service Commission, subject to the conditions of their appointments (धारा ३
+  q048 [en/lookup] devanagari in English answer
+     Q: What is Article 274 about?
+     A: Article 274 is about the amendment to the Constitution. It outlines the process for introducing, publishing, and considering bills that propose to change the Constitution, including provisions for provincial assembly consent in certain cases. (धारा ७) 
+
+Specifically, it details the requirements for 
+  q050 [en/lookup] devanagari in English answer
+     Q: What does Article 51 contain?
+     A: Article 51 of the Constitution outlines the policies the State of Nepal should pursue, focusing on national unity, security, and governance. Specifically, it details strategies for maintaining national unity while promoting cooperation among diverse groups within the country, establishing a robust n
+  q052 [en/fact] no gold cite (cited [3], gold [9])
+     Q: What is the national flower of Nepal?
+     A: The national flower of Nepal is the Rhododendron Arboreum. This flower is specifically designated as the national flower in Article 3, clause (3).
+  q053 [ne/paraphrase] no gold cite (cited [6], gold [267])
+     Q: नेपाली सेना परिचालन गर्ने निर्णय कसले गर्छ?
+     A: नेपाली सेना परिचालन गर्ने निर्णय राष्ट्रपतिले राष्ट्रिय सुरक्षा परिषदको सिफारिशमा नेपाल सरकार र मन्त्रिपरिषद्को निर्णयबमोजिम गर्छन्। (धारा ६)
+  q060 [en/negative] negative NOT refused
+     Q: What is the income tax rate in Nepal?
+     A: The Constitution of Nepal does not specify a particular income tax rate. Instead, it outlines the legal framework for levying and collecting taxes, stating that taxes must be levied and collected in accordance with law (Article 115). Furthermore, the distribution of revenue among different levels of

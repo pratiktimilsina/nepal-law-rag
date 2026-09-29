@@ -1,0 +1,70 @@
+===== dense =====
+ALL             n= 54 | hit@1 0.98 | hit@3 1.00 | hit@5 1.00 | MRR 0.988
+lang=ne         n= 27 | hit@1 0.96 | hit@3 1.00 | hit@5 1.00 | MRR 0.975
+lang=en         n= 27 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+type=fact       n= 18 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+type=lookup     n=  6 | hit@1 0.83 | hit@3 1.00 | hit@5 1.00 | MRR 0.889
+type=paraphrase n= 30 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+misses (rank != 1):
+  q049 [ne/lookup] gold=[51] rank=3 top5=[101, 61, 51, 274, 57] | धारा ५१ मा के छ?
+
+===== bm25 =====
+ALL             n= 54 | hit@1 0.56 | hit@3 0.72 | hit@5 0.76 | MRR 0.660
+lang=ne         n= 27 | hit@1 0.59 | hit@3 0.70 | hit@5 0.74 | MRR 0.672
+lang=en         n= 27 | hit@1 0.52 | hit@3 0.74 | hit@5 0.78 | MRR 0.648
+type=fact       n= 18 | hit@1 0.72 | hit@3 0.83 | hit@5 0.83 | MRR 0.793
+type=lookup     n=  6 | hit@1 0.17 | hit@3 0.17 | hit@5 0.33 | MRR 0.288
+type=paraphrase n= 30 | hit@1 0.53 | hit@3 0.77 | hit@5 0.80 | MRR 0.654
+misses (rank != 1):
+  q003 [ne/paraphrase] gold=[129] rank=8 top5=[132, 150, 143, 130, 142] | प्रधान न्यायाधीशलाई कसले नियुक्त गर्छ?
+  q005 [ne/lookup] gold=[29] rank=None top5=[271, 272, 269, 270, 273] | धारा २९ मा के व्यवस्था छ?
+  q006 [en/lookup] gold=[29] rank=7 top5=[272, 243, 34, 271, 273] | What does Article 29 say?
+  q016 [en/paraphrase] gold=[19] rank=None top5=[121, 286, 123, 209, 79] | Can the government censor news before it is published?
+  q018 [en/fact] gold=[27] rank=8 top5=[21, 35, 173, 23, 274] | What does the Constitution say about the right to information?
+  q021 [ne/paraphrase] gold=[35] rank=2 top5=[31, 35, 51, 46, 5] | सरकारी अस्पतालमा आधारभूत उपचार निःशुल्क पाइन्छ?
+  q023 [ne/paraphrase] gold=[25] rank=None top5=[158, 26, 302, 295, 60] | सरकारले कसैको जग्गा लिँदा मुआब्जा दिनुपर्छ?
+  q024 [en/paraphrase] gold=[25] rank=2 top5=[51, 25, 52, 253, 2] | Must the state pay compensation when it acquires someone's land?
+  q030 [en/paraphrase] gold=[76] rank=2 top5=[298, 76, 77, 157, 78] | How is the Prime Minister appointed?
+  q031 [ne/fact] gold=[84] rank=7 top5=[101, 100, 111, 91, 76] | प्रतिनिधि सभामा जम्मा कति सदस्य हुन्छन्?
+  q032 [en/fact] gold=[84] rank=3 top5=[91, 101, 84, 176, 76] | How many members are there in the House of Representatives?
+  q033 [ne/fact] gold=[86] rank=2 top5=[111, 86, 101, 266, 176] | राष्ट्रिय सभामा कति सदस्य रहन्छन्?
+  q035 [ne/paraphrase] gold=[87] rank=None top5=[164, 287, 64, 223, 222] | सांसद बन्न न्यूनतम उमेर कति चाहिन्छ?
+  q036 [en/paraphrase] gold=[87] rank=3 top5=[164, 64, 87, 98, 78] | What is the minimum age to become a member of parliament?
+  q038 [en/paraphrase] gold=[140] rank=2 top5=[143, 140, 141, 129, 146] | How is the Chief Judge of a High Court appointed?
+  q040 [en/fact] gold=[56] rank=6 top5=[34, 231, 257, 260, 254] | How many provinces does Nepal have?
+  q042 [en/paraphrase] gold=[57, 214, 221] rank=2 top5=[251, 221, 246, 59, 239] | Where are the powers of local governments defined?
+  q044 [en/paraphrase] gold=[238, 239] rank=None top5=[111, 232, 151, 145, 243] | How is the CIAA formed and what does it do?
+  q045 [ne/paraphrase] gold=[273] rank=5 top5=[51, 250, 251, 14, 273] | देशमा ठूलो प्राकृतिक प्रकोप आएमा राष्ट्रपतिले के गर्न सक्छ?
+  q047 [ne/lookup] gold=[274] rank=6 top5=[198, 1, 233, 3, 23] | धारा २७४ के बारेमा हो?
+  q049 [ne/lookup] gold=[51] rank=6 top5=[78, 170, 85, 177, 258] | धारा ५१ मा के छ?
+  q050 [en/lookup] gold=[51] rank=4 top5=[243, 34, 111, 51, 162] | What does Article 51 contain?
+  q055 [ne/paraphrase] gold=[14] rank=3 top5=[12, 289, 14, 15, 11] | विदेशमा बस्ने नेपालीले कस्तो नागरिकता पाउन सक्छन्?
+  q056 [en/paraphrase] gold=[14] rank=7 top5=[10, 12, 15, 289, 13] | What kind of citizenship can Nepalis living abroad get?
+
+===== hybrid =====
+ALL             n= 54 | hit@1 0.83 | hit@3 0.94 | hit@5 0.96 | MRR 0.889
+lang=ne         n= 27 | hit@1 0.81 | hit@3 0.89 | hit@5 0.93 | MRR 0.859
+lang=en         n= 27 | hit@1 0.85 | hit@3 1.00 | hit@5 1.00 | MRR 0.920
+type=fact       n= 18 | hit@1 0.94 | hit@3 1.00 | hit@5 1.00 | MRR 0.972
+type=lookup     n=  6 | hit@1 0.67 | hit@3 0.67 | hit@5 0.83 | MRR 0.732
+type=paraphrase n= 30 | hit@1 0.80 | hit@3 0.97 | hit@5 0.97 | MRR 0.871
+misses (rank != 1):
+  q003 [ne/paraphrase] gold=[129] rank=3 top5=[132, 143, 129, 284, 153] | प्रधान न्यायाधीशलाई कसले नियुक्त गर्छ?
+  q005 [ne/lookup] gold=[29] rank=4 top5=[272, 270, 269, 29, 273] | धारा २९ मा के व्यवस्था छ?
+  q016 [en/paraphrase] gold=[19] rank=3 top5=[187, 274, 19, 121, 286] | Can the government censor news before it is published?
+  q023 [ne/paraphrase] gold=[25] rank=8 top5=[60, 115, 203, 51, 59] | सरकारले कसैको जग्गा लिँदा मुआब्जा दिनुपर्छ?
+  q032 [en/fact] gold=[84] rank=2 top5=[91, 84, 101, 83, 85] | How many members are there in the House of Representatives?
+  q035 [ne/paraphrase] gold=[87] rank=3 top5=[64, 164, 87, 178, 287] | सांसद बन्न न्यूनतम उमेर कति चाहिन्छ?
+  q044 [en/paraphrase] gold=[238, 239] rank=2 top5=[301, 239, 111, 232, 151] | How is the CIAA formed and what does it do?
+  q049 [ne/lookup] gold=[51] rank=7 top5=[101, 78, 170, 85, 61] | धारा ५१ मा के छ?
+  q056 [en/paraphrase] gold=[14] rank=2 top5=[12, 14, 10, 11, 289] | What kind of citizenship can Nepalis living abroad get?
+
+===== dense+route =====
+ALL             n= 54 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+lang=ne         n= 27 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+lang=en         n= 27 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+type=fact       n= 18 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+type=lookup     n=  6 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+type=paraphrase n= 30 | hit@1 1.00 | hit@3 1.00 | hit@5 1.00 | MRR 1.000
+misses (rank != 1):
+
